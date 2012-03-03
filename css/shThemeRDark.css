@@ -47,6 +47,15 @@
 	color: #B9BDB6 !important;
 }
 
+
+/* pad top and bottom */
+.syntaxhighlighter .lines .line:first-child {
+	padding-top: 0.4em!important;
+	}
+.syntaxhighlighter .lines .line:last-child {
+	padding-bottom: 0.5em;
+	}
+
 /* Add border to the lines */
 .syntaxhighlighter .line .content
 {
@@ -66,17 +75,16 @@
 }
 
 /* Second line */
-.syntaxhighlighter .line.alt2
-{
+.syntaxhighlighter .line.alt2 {
 	background-color: #1B2426 !important;
-}
+	}
 
 /* Highlighed line number */
 .syntaxhighlighter .line.highlighted .number
 {
 	background-color: #435A5F !important;
 	color: #fff !important;
-}
+	}
 
 /* Highlighed line */
 .syntaxhighlighter .line.highlighted.alt1,

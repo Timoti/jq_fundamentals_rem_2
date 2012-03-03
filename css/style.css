@@ -36,13 +36,33 @@ div.chapter {
 h1,h3,h5 {
 	color:#c3ac20;
 	}
+	
+.titlepage h3 {
+	color:#426d54;
+	text-transform: uppercase;
+	padding-bottom:0.1em;
+	border-bottom: solid #426d54 2px;
+	font-size: 2.5em;
+	line-height: 0.85 
+	}
+	
+	
+	
+h3,h5 {
+	color:#eb8e35;
+	}
+
 h2,h4,h6 {
-	color:#42575c;
+	color:#779d41;
 	}
 	
 h6 {
 	color:gray;
 	}
+
+
+
+
 
 
 /* COLUMNS */
@@ -110,16 +130,20 @@ ul.pointless  li {
 
 .example .title {
 	font-family:Helvetica, Arial, sans-serif;
-	font-style:italic;
+/* 	font-style:italic; */
 	margin:20px 0 3px;
 	font-size:90%;
+	color:gray;
 	}
 
 .note {
-	background-color:#fe6;
+	background-color:#f0ee7b;
 	padding:8px;
+	margin-bottom: 1em
 	}
-
+.note p {
+	margin-bottom: 0.2em;
+	}
 dt span.term {
 	font-family:Helvetica, Arial, sans-serif;
 	font-weight:bold;
@@ -135,3 +159,25 @@ p.toc {
 	color:#ce242a;
 	cursor:pointer;
 	}
+div.section {	
+	position:relative;
+	}
+
+
+/* PATCHES */
+		
+p.toc {	
+	position:absolute;
+	display:inline-block;
+	width:auto;
+	left:-50px;
+	}	
+	
+p.toc {	
+	display:none;
+	}	
+
+h1.title:not(.document) {
+	page-break-before: always;
+	}		
+	

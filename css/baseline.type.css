@@ -129,7 +129,7 @@ li p {
 	top:0;
 	}
 
-form,legend,label {
+form,legend,xlabel {
 	font-size:13px;
 	line-height:18px;
 	}
@@ -157,15 +157,31 @@ hr {
 	
 	
 /* TGD pragmatism  */
-p {
-	margin-top:0;
+
+h2, h3, h4, h5, h6,
+p,pre,address {
+	position:static!important;
 	}
 	
-h1,h2 {
+h2, h3, h4, h5, h6{
+	margin-top:2em;
+	}
+.titlepage h3{
+	margin-top: 3em;
+	}	
+	
+p {
+	margin-top:0;
+	}	
+	
+h1 {
 	margin-bottom:0.5em;
 	}
 	
 h3,h4,h5,h6 {
-	margin-bottom:0;
+	margin-bottom:0.2em;
 	}	
-	
+
+p + p {
+    text-indent: 0;
+	}	
