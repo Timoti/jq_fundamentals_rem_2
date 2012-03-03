@@ -10,8 +10,6 @@ version 0.5
 body {
 	font-size:75%;
 	line-height:1.5;
-
-	
 	/*12/18*/
 	}
 
@@ -62,6 +60,15 @@ h6 {
 	top:5px;
 	}
 
+
+
+h3,h4,h5,h6 {
+	font-weight: normal;
+	}
+
+
+
+
 /*
 h1:first-child,
 h2:first-child,
@@ -70,7 +77,12 @@ h4:first-child {
 	margin-top:0;
 	}
 */
-
+.note h1:first-child,
+.note h2:first-child,
+.note h3:first-child,
+.note h4:first-child {
+	margin-top:0;
+	}
 p,pre,address {
 	font-size:13px;
 	line-height:18px;
@@ -145,8 +157,11 @@ hr {
 	
 	
 /* TGD pragmatism  */
-
-h1,h2{
+p {
+	margin-top:0;
+	}
+	
+h1,h2 {
 	margin-bottom:0.5em;
 	}
 	

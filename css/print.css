@@ -6,6 +6,7 @@ body {
 
 /* PAGE BREAKS */
 
-h1 {
+
+h2 {
 	page-break-before: always;
 	}

@@ -50,7 +50,6 @@ h6 {
 .columns-2,
 .columns-3,
 .columns-4 {
-
 	-moz-column-gap:2em;
 	-webkit-column-gap:2em;
 	column-gap:2em;
@@ -95,6 +94,12 @@ h1.title {
 */
 
 
+ul.pointless  li {
+	list-style: none;
+	}
+
+
+
 .example {
 	margin:20px 0;
 	}
@@ -112,7 +117,7 @@ h1.title {
 
 .note {
 	background-color:#fe6;
-	padding:15px;
+	padding:8px;
 	}
 
 dt span.term {
