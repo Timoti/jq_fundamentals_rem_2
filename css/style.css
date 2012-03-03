@@ -1,22 +1,85 @@
+/* LAYOUT */
 body {
-  margin: 20px auto;
-  width: 60%;
-  font-family:Georgia, serif;
-}
+	margin:20px auto;
+	width:60%;
+	}
 
 a {
-  color:#ce242a;
-}
+	color:#ce242a;
+	color:#d35802;
+	text-decoration: none;
+	padding:1px;
+	}
 
 a:visited {
-  color:#9f2826;
-}
+	color:gray;
+	}
+
+
+a:hover {
+	color:#d33813;
+	text-decoration:none;
+	background-color:#cdd363;
+	}
 
 div.chapter {
-  padding:50px 0;
-  border-top:1px solid #ccc;
-  border-bottom:1px solid #ccc;
-}
+	padding:50px 0;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	}
+
+
+/* COLOURS */
+
+
+
+h1,h3,h5 {
+	color:#c3ac20;
+	}
+h2,h4,h6 {
+	color:#42575c;
+	}
+	
+h6 {
+	color:gray;
+	}
+
+
+/* COLUMNS */
+
+.columns-2,
+.columns-3,
+.columns-4 {
+
+	-moz-column-gap:2em;
+	-webkit-column-gap:2em;
+	column-gap:2em;
+	}
+
+.columns-2 {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}
+.columns-3 {
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	}
+
+.columns-4 {
+	-moz-column-count:4;
+	-webkit-column-count:4;
+	column-count:4;
+	}
+
+
+
+		
+/* TYPE */
+
+	
+/*
 
 p {
   line-height:1.4em;
@@ -27,44 +90,43 @@ p {
 }
 
 h1.title {
-  font-size:250%;
+  font-size:2.5em;
 }
+*/
 
-h1, h2, h3, h4, h5 {
-  font-family:Helvetica,Arial, sans-serif;
-}
 
 .example {
-  margin:20px 0;
-}
+	margin:20px 0;
+	}
 
 .example .example-contents {
-  margin:0 0 10px 0;
-}
+	margin:0 0 10px;
+	}
 
 .example .title {
-  font-family:Helvetica, Arial, sans-serif;
-  font-style:italic;
-  margin:20px 0 3px 0;
-  font-size:90%;
-}
+	font-family:Helvetica, Arial, sans-serif;
+	font-style:italic;
+	margin:20px 0 3px;
+	font-size:90%;
+	}
 
 .note {
-  background-color:#fe6;
-  padding:15px;
-}
+	background-color:#fe6;
+	padding:15px;
+	}
 
 dt span.term {
-  font-family:Helvetica, Arial, sans-serif;
-  font-weight:bold;
-}
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	}
 
 p.toc {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size:90%;
-}
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:90%;
+	}
 
-#toc li, #loe li {
-  color:#ce242a;
-  cursor:pointer;
-}
+#toc li,
+#loe li {
+	color:#ce242a;
+	cursor:pointer;
+	}
